@@ -1,0 +1,31 @@
+header {
+    background-image: url(../assets/images/food9.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    #logo {
+        font-family: 'Lobster', cursive;
+        font-size: 32px;
+    }
+    section {
+        padding-top: 0;
+        div .header-txt {
+            color: aliceblue;
+            padding: 0 20vh 10vh 10vh;
+        }
+        h1 {
+            font-family: 'Lobster', cursive;
+            font-size: 50px;
+            padding: 3vh 0;
+        }
+        p {
+            font-family: 'Courgette', cursive;
+            font-size: 25px;
+            padding: 3vh 0;
+        }
+    }
+}

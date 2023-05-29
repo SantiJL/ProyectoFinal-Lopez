@@ -1,0 +1,43 @@
+@media (max-width: 1399px) {
+    header {
+        background-image: url(../assets/images/food9.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        max-width: 100%;}
+    main {
+        .container {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .div-2 {
+            align-self: center;
+        }
+        .div-3 {
+            width: 100%;
+            padding: 5vh 5vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+                button {
+                    display: none;
+                }
+            h3 {
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 36px;
+                padding: 9vh 0 3vh 0;
+            }
+            #p-2 {
+                font-size: 22px;
+                padding-top: 3vh;
+            }
+            
+        }
+    }
+}
