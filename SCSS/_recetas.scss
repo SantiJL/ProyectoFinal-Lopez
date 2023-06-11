@@ -5,17 +5,16 @@
     font-size: 48px;
 }
 
-#size {
-    height: 95vh;
-    padding-top: 5vh;
-}
-
 .grid-box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 250px;
     gap: 15px;
     padding: 15px;
+}
+
+.grid-box-2 {
+    grid-auto-rows: 390px;
 }
 
 .grid-image {
@@ -31,4 +30,15 @@
     -ms-transform: scale(1.05);
     transform: scale(1.05);
     transition: 0.5s ease;
+}
+
+#size {
+    height: 95vh;
+    padding-top: 5vh;
+}
+
+main div {
+    .center {
+        justify-self: center;
+    }
 }

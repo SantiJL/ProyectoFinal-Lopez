@@ -11,8 +11,14 @@ background-color: #FFD8A9;
 min-height: 100vh;
 }
 #third {
-background-color: #F1A661;
+background-color: $color-naranja; /*Acá la variable "obligatoria" */
 min-height: 100vh;
+}
+#background-1 {
+    background-image: url(../assets/images/fondo3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 main {
@@ -65,5 +71,23 @@ main {
     #p-2 {
         font-size: 34px;
         padding-top: 11vh;
+    }
+    .div-4 {
+        width: 50%;
+        padding: 5vh 15vh;
+        font-size: 24px;
+        color: #FDEEDC;
+        font-family:'Courgette', cursive;
+        padding-top: 20vh;
+    }
+
+    .div-5 {
+        display: flex;
+        width: 50%;
+        padding: 5vh 15vh;
+        font-size: 24px;
+        color: #FDEEDC;
+        font-family:'Courgette', cursive;
+        padding-top: 20vh;
     }
 }

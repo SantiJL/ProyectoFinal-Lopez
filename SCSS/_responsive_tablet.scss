@@ -1,18 +1,32 @@
 @media (max-width: 1399px) {
     header {
-        background-image: url(../assets/images/food9.jpg);
+        background-image: url(../assets/images/fondo1.jpg);
         background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 100vh;
         display: flex;
         align-items: center;
-        max-width: 100%;}
+        max-width: 100%;
+        .div-4 {
+            width: 100%;
+            font-size: 24px;
+            color: #FDEEDC;
+            font-family:'Courgette', cursive;
+            flex-direction: column;
+            span {
+                font-size: 36px;
+                color: #d14f13;
+                font-family:'Courgette', cursive;
+            }
+        }
+    }
     main {
         .container {
             display: flex;
             flex-direction: column;
-            flex-wrap: wrap;
+            align-items: center;
+            max-width: 100%;
         }
         .div-2 {
             align-self: center;
@@ -37,7 +51,30 @@
                 font-size: 22px;
                 padding-top: 3vh;
             }
-            
+        }
+        .div-5 {
+            width: 100%;
+                font-size: 24px;
+                color: #FDEEDC;
+                font-family:'Courgette', cursive;
+                width: 100%
         }
     }
+}
+
+#recetas {
+    background-image: url(../assets/images/fondo5.webp)
+}
+
+#nosotros {
+    background-image: url(../assets/images/fondo6.jpg);
+}
+
+#historias {
+    background-image: url(../assets/images/fondo7.webp);
+}
+
+
+#contacto {
+    background-image: url(../assets/images/fondo4.jpg);
 }

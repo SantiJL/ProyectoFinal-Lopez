@@ -1,5 +1,5 @@
 header {
-    background-image: url(../assets/images/food9.jpg);
+    background-image: url(../assets/images/fondo1.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100% 200%;
@@ -11,11 +11,31 @@ header {
         font-family: 'Lobster', cursive;
         font-size: 32px;
     }
+    .div-4 {
+        width: 70%;
+        padding: 5vh 15vh;
+        font-size: 24px;
+        color: #FDEEDC;
+        font-family:'Courgette', cursive;
+        span {
+            font-size: 36px;
+            color: #d14f13;
+            font-family:'Courgette', cursive;
+        }
+    }
+    #size {
+        height: 50vh;
+        object-fit: cover;
+    }
     section {
         padding-top: 0;
         div .header-txt {
             color: aliceblue;
             padding: 0 20vh 10vh 10vh;
+        }
+        .historias {
+            padding: 4vh;
+            color: #FDEEDC;
         }
         h1 {
             font-family: 'Lobster', cursive;
@@ -28,4 +48,24 @@ header {
             padding: 3vh 0;
         }
     }
+}
+
+#recetas {
+    background-image: url(../assets/images/fondo5.webp);
+    background-size: cover;
+}
+
+#nosotros {
+    background-image: url(../assets/images/fondo6.jpg);
+    background-size: cover;
+}
+
+#historias {
+    background-image: url(../assets/images/fondo7.webp);
+    background-size: cover;
+}
+
+#contacto {
+    background-image: url(../assets/images/fondo5.webp);
+    background-size: cover;
 }
